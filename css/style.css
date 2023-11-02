@@ -1,0 +1,69 @@
+/* Import external fonts for the website */
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600|Roboto:300,400,700');
+
+/* Set the background color for header and footer elements */
+header, footer {
+  background-color: #38b6ff;
+}
+
+header.shadow-sm img {
+    margin: 0;  /* This removes any margin */
+}
+  
+header.shadow-sm div {
+    padding: 0;  /* This removes any padding */
+}
+
+header.shadow-sm img {
+    margin: 0px;  
+}
+
+/* Style the navbar brand (usually the site's name or logo text in the navbar) */
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Style the navigation links and dropdown items in the navbar */
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Set padding for navigation list items */
+nav li {
+  padding: 0 18px;
+}
+
+/* Style the active navigation list item and a pseudo-element before it */
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Style the icons in the footer */
+footer i {
+  color: #fff;
+  padding: 0 12px;
+}
+
+/* Style the headings (h1 to h6) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 700;
+}
+
+/* Style paragraphs */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* Style links with the .btn class and buttons */
+a.btn, button {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

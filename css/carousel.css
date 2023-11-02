@@ -1,0 +1,22 @@
+/* CUSTOMIZE CAROUSEL */
+
+/* Set the style for active indicators in the carousel */
+ol.carousel-indicators li.active {
+    background-color: rgba(45, 146, 204, 1);
+}
+
+/* Style the indicators in the carousel */
+ol.carousel-indicators li {
+    background-color: rgba(45, 146, 204, 0.6);
+}
+
+/* Set the hover effect for carousel controls (prev/next) */
+.carousel a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Invert the colors of the carousel control icons (previous and next arrows) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(70%);
+}
