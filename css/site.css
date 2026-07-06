@@ -1,0 +1,45 @@
+/* The Truth — site theme, matched to the book's reading theme. No frameworks. */
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #101216; color: #cfd6df;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.1rem; line-height: 1.75;
+}
+a { color: #8fb3e8; }
+nav.site {
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+  padding: 14px 22px; font-family: system-ui, sans-serif; font-size: 14px;
+  border-bottom: 1px solid #1e232b; position: sticky; top: 0;
+  background: rgba(16,18,22,.94); backdrop-filter: blur(4px);
+}
+nav.site .brand { color: #eef2f7; text-decoration: none; font-weight: 600; letter-spacing: .04em; }
+nav.site .links a { color: #8fb3e8; text-decoration: none; margin-left: 18px; }
+nav.site .links a:hover { color: #b9d2f5; }
+main { max-width: 72ch; margin: 0 auto; padding: 0 22px 80px; }
+.hero { text-align: center; padding: 14vh 0 8vh; }
+.hero h1 { font-size: 2.6rem; line-height: 1.2; color: #eef2f7; margin: 0 0 .4em; font-weight: 600; }
+.hero .tag { color: #a7b1bf; font-style: italic; font-size: 1.15rem; margin-bottom: 2.2em; }
+.cta {
+  display: inline-block; padding: 13px 26px; border: 1px solid #3a4d6e; border-radius: 8px;
+  color: #cfe0f5; text-decoration: none; font-family: system-ui, sans-serif; font-size: 15px;
+}
+.cta:hover { background: #1a2230; }
+section { margin-top: 4.5em; }
+section h2 {
+  font-size: 1.05rem; font-family: system-ui, sans-serif; letter-spacing: .18em;
+  text-transform: uppercase; color: #6d7a8b; font-weight: 600; margin-bottom: 1em;
+}
+.quote { color: #a7b1bf; font-style: italic; border-left: 2px solid #2a3444; padding-left: 1em; margin: 1.4em 0; }
+.cardrow { display: grid; gap: 12px; }
+.cardrow a {
+  display: block; padding: 14px 18px; border: 1px solid #1e2530; border-radius: 8px;
+  color: #cfd6df; text-decoration: none;
+}
+.cardrow a:hover { border-color: #3a4d6e; color: #eef2f7; }
+.cardrow .k { font-family: system-ui, sans-serif; font-size: 12.5px; color: #6d7a8b; display: block; margin-top: 3px; }
+footer {
+  border-top: 1px solid #1e232b; margin-top: 5em; padding: 26px 22px 40px;
+  text-align: center; font-family: system-ui, sans-serif; font-size: 13px; color: #6d7a8b;
+}
+footer a { color: #8fb3e8; }
