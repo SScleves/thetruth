@@ -13,6 +13,18 @@ edit HTML, push, done.
 
 Topic backlog: see `TOPICS.md` — capture ideas there before they become posts.
 
+## The book — *Something Doesn't Fit*
+
+Lives at `book/` (cover + 5 chapters, own reading theme, no frameworks).
+**Source of truth: `book/source.txt`** — edit the text there, then regenerate:
+
+```powershell
+powershell _build\build-book.ps1
+```
+
+Commit `book/source.txt` and the regenerated `book/*.html` together. Chapters split on `#` headings;
+`##`/`###` become subheads; `— — —` lines become separators; blank-gapped `-` bullets become lists.
+
 ## Publish
 
 GitHub Pages: repo Settings → Pages → Deploy from branch → `main` / root.
