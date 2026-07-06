@@ -1,0 +1,6 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Design sources stay local — export PNGs into images/ instead
+*.xcf
