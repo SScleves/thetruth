@@ -1,3 +1,5 @@
+> **Live site (open from any browser):** https://sscleves.github.io/thetruth/
+
 # The Truth
 
 A place to write about things worth discussing. Static site (Bootstrap 4), no build step —
